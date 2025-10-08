@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Python
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Vercel local config
+.vercel/
+
+# Logs & misc
+*.log
+
+# Byte-compiled caches anywhere
+**/__pycache__/
+EOF
