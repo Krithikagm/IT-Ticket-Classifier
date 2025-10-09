@@ -3,7 +3,7 @@
 Classify IT support tickets (e.g., “Outlook not syncing”, “Windows update BSOD”) into categories using a lightweight ML model exposed as a **FastAPI** service, with a simple **Flask** web UI.
 
 - **Live UI:** https://it-ticket-classifier-ui.vercel.app/
-- **Live API:** `https://<your-api-project>.vercel.app` ← replace with your API domain from Vercel
+- **Live API:** `https://ticket-api-fastapi.vercel.app/
 
 ---
 
